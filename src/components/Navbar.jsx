@@ -39,7 +39,7 @@ const Navbar = () => {
           className="cursor-pointer"
           onClick={() => setOpen((prev) => !prev)}
         >
-          {open ? <HiX /> : <HiMenuAlt3 />}
+          {open ? <HiX size={25} /> : <HiMenuAlt3 size={25} />}
         </div>
         <SignedIn>
           <UserButton />
