@@ -29,7 +29,7 @@ const Navbar = () => {
             height={30}
             alt="logo"
           />
-          <span className="font-normal">Shadowspace</span>
+          <span>Shadowspace</span>
         </div>
       </Link>
 
