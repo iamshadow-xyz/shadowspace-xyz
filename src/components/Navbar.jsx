@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Image from "./Image";
 import { Link } from "react-router-dom";
+import { HiMenuAlt3 } from "react-icons/hi";
+import { HiX } from "react-icons/hi";
 import {
   SignedIn,
   SignedOut,
@@ -23,11 +25,11 @@ const Navbar = () => {
           <Image
             src="logo.png"
             className="rounded-sm"
-            width={32}
-            height={32}
+            width={30}
+            height={30}
             alt="logo"
           />
-          <span>Shadowspace</span>
+          <span className="font-normal text-lg">Shadowspace</span>
         </div>
       </Link>
 
@@ -37,7 +39,7 @@ const Navbar = () => {
           className="cursor-pointer"
           onClick={() => setOpen((prev) => !prev)}
         >
-          {open ? "✕" : "☰"}
+          {open ? <HiX /> : <HiMenuAlt3 />}
         </div>
         <SignedIn>
           <UserButton />
