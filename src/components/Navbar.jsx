@@ -37,7 +37,7 @@ const Navbar = () => {
           className="cursor-pointer"
           onClick={() => setOpen((prev) => !prev)}
         >
-          {open ? "x" : "="}
+          {open ? "✕" : "☰"}
         </div>
         <SignedIn>
           <UserButton />
