@@ -13,7 +13,7 @@ const Main = () => {
       <input
         type="text"
         placeholder="Search"
-        className="p-4 border bg-transparent border-[#dadada30] w-full mb-20"
+        className="p-4 border bg-transparent border-[#dadada30] w-full mb-6 md:mb-20"
       />
       <h1 className="sm:text-4xl text-2xl font-bold mb-4">
         Blogs and articles:

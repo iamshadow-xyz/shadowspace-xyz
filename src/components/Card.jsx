@@ -15,7 +15,7 @@ const Card = () => {
         target="_blank"
         href="https://tinted-scorpio-c3b.notion.site/What-is-Web-Development-in-2025-167441b417138044950dca9af4e5bd37?pvs=4"
       >
-        <button className="border border-[#dadada30] p-2 mt-2">
+        <button className="border border-[#dadada30] p-2 mt-4">
           Read More
         </button>
       </a>
