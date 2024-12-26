@@ -1,7 +1,7 @@
 import fullStack from "../assets/full-stack.png";
 const Card = () => {
   return (
-    <div className="border border-[#dadada30] grid grid-cols-2 gap-4 p-4 mb-4">
+    <div className="border border-[#dadada30] grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mb-4">
       <div className="image">
         <img className="" src={fullStack} alt="Card" />
       </div>
