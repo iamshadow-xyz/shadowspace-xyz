@@ -19,7 +19,7 @@ const Header = () => {
             Menu
           </h1>
           <nav
-            className={`sm:flex items-center min-h-screen justify-center text-center space-x-4 ${
+            className={`sm:flex items-center text-center space-x-4 ${
               menuOpen ? "block" : "hidden"
             } absolute sm:static top-16 backdrop-blur-sm left-0 right-0 bg-black sm:bg-transparent p-4 sm:p-2`}
           >
