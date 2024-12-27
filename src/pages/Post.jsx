@@ -2,13 +2,13 @@ import FS from "../assets/full-stack.png";
 
 const Post = () => {
   return (
-    <div className="max-w-5xl mx-auto pt-24">
+    <div className="max-w-5xl mx-auto p-4 pt-24">
       <div className="Blog max-w-3xl mx-auto">
-        <h1 className="text-3xl mb-6 mt-4">
+        <h1 className="text-xl sm:text-3xl mb-6 mt-4">
           The Evolution of Web Development by 2025
         </h1>
         <img
-          className="w-full h-96 object-cover mb-4"
+          className="w-full h-auto object-cover mb-4"
           src={FS}
           alt="Full Stack"
         />
