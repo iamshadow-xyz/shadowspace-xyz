@@ -5,13 +5,13 @@ export const posts = pgTable('posts', {
     title: text("title").notNull(),
     content: text("content").notNull(),
     createdAt : timestamp("created_at").notNull().defaultNow(),
-    userId: text("user_id").references(()=> users.id).notNull(),
+    userId: uuid("user_id").references(()=> users.id).notNull(),
 })
 
 export const users = pgTable('users', {
     id: uuid("id").primaryKey().defaultRandom(),
     name: text("name").notNull(),
     email: text("email").notNull(),
-    image: text("image").notNull(),
+    image: text("image"),
     createdAt : timestamp("created_at").notNull().defaultNow(),
 })
