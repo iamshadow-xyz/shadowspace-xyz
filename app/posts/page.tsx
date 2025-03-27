@@ -11,12 +11,12 @@ export default async function page() {
         <h1>Create a new post</h1>
       </Link>
       {AllPosts.map((post) => (
-        <Link href={`/posts/${post.id}`}>
-          <div key={post.id}>
+        <div key={post.id}>
+          <Link href={`/posts/${post.id}`}>
             <h2>{post.title}</h2>
-            <p>{post.content}</p>
-          </div>
-        </Link>
+          </Link>
+          <p>{post.content}</p>
+        </div>
       ))}
     </div>
   );
